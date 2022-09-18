@@ -1,3 +1,5 @@
+/* Estilos Generales  */
+
 :root {
     --white: #FFFFFF;
     --black: #000000;
@@ -17,6 +19,7 @@
   display: none;
 }
 
+/* Estilo del NavBar General  */
 
   nav {
     display: flex;
@@ -124,8 +127,12 @@
     display: inline-block;
   }
 
-  /* CSS de la seccion de mobile  */
+  /* CSS de la seccion de Mobile  */
+
   .mobile-menu {
+    position: absolute;
+    top: 60px;
+    /* left: 60px; */
     padding: 24px;
   }
   .mobile-menu a {
@@ -161,6 +168,7 @@
     color: var(--hospital-green) !important;
   }
 
+  
 
   @media (max-width: 640px) {
     .menu {
